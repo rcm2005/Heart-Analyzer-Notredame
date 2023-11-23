@@ -1,6 +1,9 @@
 # ECG-Emulator-Notredame
 A Notredame nos desafiou na Global Solutions a tornar a saúde mais acessível à todos através da tecnologia, eu Rafael Mattos e minha dupla Vinicius Yamashita desenvolvemos soluções para os problemas do cenário atual do sistema de saúde.
 
+RM:99874- Rafael Carvalho mattos
+RM:550908-Vinicius Santos Yamashita de Farias
+
 
 
 O dispositivo ECG:
