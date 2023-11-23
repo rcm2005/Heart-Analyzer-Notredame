@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "author": "Uri Shaked",
+    "editor": "wokwi",
+    "parts": [
+      {
+        "type": "wokwi-esp32-devkit-v1",
+        "id": "esp",
+        "top": 100.7,
+        "left": -158.6,
+        "attrs": { "fastTLS": "1" }
+      },
+      {
+        "type": "wokwi-ili9341",
+        "id": "lcd1",
+        "top": 34.7,
+        "left": 88.6,
+        "rotate": 90,
+        "attrs": {}
+      },
+      { "type": "wokwi-potentiometer", "id": "pot1", "top": 353.9, "left": -144.2, "attrs": {} },
+      { "type": "wokwi-potentiometer", "id": "pot2", "top": 363.5, "left": -38.6, "attrs": {} },
+      { "type": "wokwi-potentiometer", "id": "pot3", "top": 363.5, "left": -288.2, "attrs": {} },
+      {
+        "type": "wokwi-resistor",
+        "id": "r1",
+        "top": 339.95,
+        "left": -288,
+        "attrs": { "value": "1000" }
+      }
+    ],
+    "connections": [
+      [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+      [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+      [ "lcd1:GND", "esp:GND.1", "black", [ "h-19.2", "v91.54" ] ],
+      [ "lcd1:RST", "esp:D4", "purple", [ "h-57.6", "v43.34" ] ],
+      [ "lcd1:D/C", "esp:D2", "#8f4814", [ "h-28.8", "v44.14" ] ],
+      [ "lcd1:SCK", "esp:D18", "gray", [ "v-0.01", "h-48", "v-19.2" ] ],
+      [ "lcd1:MISO", "esp:D19", "orange", [ "h-38.4", "v-9.61", "h-28.8", "v-38.3" ] ],
+      [ "lcd1:MOSI", "esp:D23", "green", [ "h-38.4", "v-67.31" ] ],
+      [ "esp:VIN", "lcd1:VCC", "red", [ "h-21.83", "v-170.12", "h201.6", "v59.48" ] ],
+      [ "lcd1:CS", "esp:D15", "violet", [ "h-76.8", "v76.8" ] ],
+      [ "pot3:GND", "esp:GND.2", "black", [ "v28.8", "h67.2" ] ],
+      [ "pot1:GND", "esp:GND.2", "black", [ "v9.6", "h-67.2", "v0", "v-191.9" ] ],
+      [ "pot3:VCC", "esp:VIN", "red", [ "v19.2", "h37.6", "v-153.6", "h0", "v-115.2" ] ],
+      [ "pot2:GND", "esp:GND.1", "black", [ "v9.6", "h-38.4", "v-192" ] ],
+      [ "pot1:VCC", "esp:VIN", "red", [ "v38.4", "h-77.6", "v-201.6" ] ],
+      [ "pot2:VCC", "esp:VIN", "red", [ "v48", "h-202.4", "v-220.8" ] ],
+      [ "pot1:SIG", "esp:D34", "green", [ "v19.2", "h-58", "v-144" ] ],
+      [ "pot2:SIG", "esp:D32", "green", [ "v38.4", "h-192.4", "v-278.4" ] ],
+      [ "pot3:SIG", "r1:1", "green", [ "v9.6", "h-77.2", "v-96" ] ],
+      [ "r1:2", "esp:D33", "green", [ "v-76.8", "h18", "v-86.4" ] ]
+    ],
+    "dependencies": {}
+  }
