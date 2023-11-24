@@ -16,7 +16,8 @@ Diante disso, o projeto proposto apresenta uma abordagem inovadora no cenário d
 ## O dispositivo ECG:
 <br>
 
-https://github.com/rcm2005/Heart-Analyzer-ECG-Notredame/issues/2#issue-2009726602
+![Imagem08](https://github.com/rcm2005/Heart-Analyzer-ECG-Notredame/assets/68041167/991a3038-5007-44df-a59e-a574cd87ac88)
+
 
 <br>
 
