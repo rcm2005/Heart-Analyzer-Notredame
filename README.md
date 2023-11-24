@@ -14,6 +14,10 @@ Diante disso, o projeto proposto apresenta uma abordagem inovadora no cenário d
 
 
 ## O dispositivo ECG:
+
+### Como usar ?
+
+Apenas inicie a simulação e altere o valor dos potenciometros para simular os sinais eletricos vindos do coração
 <br>
 
 ![Imagem08](https://github.com/rcm2005/Heart-Analyzer-ECG-Notredame/assets/68041167/991a3038-5007-44df-a59e-a574cd87ac88)
