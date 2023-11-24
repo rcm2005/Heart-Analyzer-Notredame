@@ -15,7 +15,7 @@ Diante disso, o projeto proposto apresenta uma abordagem inovadora no cenário d
 
 ## O dispositivo ECG:
 <br>
-![Imagem8](https://github.com/rcm2005/ECG-Emulator-Notredame/assets/68041167/4ac9b933-20db-4ead-bacc-a9923b166279).
+![Imagem8](https://github.com/rcm2005/Heart-Analyzer-ECG-Notredame/assets/68041167/1052741a-f641-4e68-a309-e82b86bbfa9a)
 <br>
 
 (Figura 5: Sensor eletrocardiograma, display e ESP32)
