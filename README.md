@@ -24,7 +24,9 @@ https://github.com/rcm2005/Heart-Analyzer-ECG-Notredame/issues/2#issue-200972660
 
 O dispositivo Heart Analyzer é o que torna a captura dos sinais cardíacos possível, nessa simulação utilizamos 3 potenciômetros para simular os 3 eletrodos do sensor. Os sinais enviados pelo coração são capturados nos eletrodos, processados pelo módulo ESP32 e enviados para a nuvem utilizando o protocolo MQTT, e serão captados posteriormente pelo nosso programa
 
+É possível acessar o dispositivo na plataforma Wokwi no link abaixo:
 
+https://wokwi.com/projects/381968407974979585
 
 
 Junto do dispositivo ECG, também desenvolvemos a aplicação python onde é possível importar os dados do sensor e plotar um gráfico dos dados do eletrocardiograma na tela, como pode ser visto na figura 10. <br>
