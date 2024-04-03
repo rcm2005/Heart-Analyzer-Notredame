@@ -1,5 +1,5 @@
 # Heart-Analyzer-ECG-Notredame
-![изображение](https://github.com/rcm2005/Heart-Analyzer-ECG-Notredame/assets/68041167/79a29c9c-3a75-469c-9569-a3ca454a7dac)
+
 
 A Notredame nos desafiou na Global Solutions a tornar a saúde mais acessível à todos através da tecnologia, eu Rafael Mattos e minha dupla Vinicius Yamashita desenvolvemos soluções para os problemas do cenário atual do sistema de saúde.
 
@@ -21,6 +21,7 @@ Diante disso, o projeto proposto apresenta uma abordagem inovadora no cenário d
 Apenas inicie a simulação e altere o valor dos potenciometros para simular os sinais eletricos vindos do coração
 <br>
 
+![Imagem08](https://github.com/rcm2005/Heart-Analyzer-ECG-Notredame/assets/68041167/991a3038-5007-44df-a59e-a574cd87ac88)
 
 
 <br>
@@ -42,6 +43,3 @@ Junto do dispositivo ECG, também desenvolvemos a aplicação python onde é pos
           (Figura 10: Gráfico com dados de exame gerado pelo Health Center)
 
 Dessa forma fornecemos a melhor experiência possível para o paciente ajudando os médicos a oferecer cuidados.
-
-
-
